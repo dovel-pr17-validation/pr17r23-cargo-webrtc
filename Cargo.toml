@@ -60,7 +60,7 @@ ctrlc = "3.5.2"
 serde_json = "1.0.150"
 hyper = { version = "0.14.32", features = ["full"] }
 rand = "0.10.1"
-base64 = "0.22.1"
+base64 = "0.23.1"
 
 # For `examples/custom-runtime`: a third-party runtime built on neither tokio nor smol,
 # proving the `Runtime` trait is pluggable.
