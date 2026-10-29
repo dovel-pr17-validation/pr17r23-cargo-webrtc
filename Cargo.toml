@@ -33,7 +33,7 @@ crypto-aws-lc-rs = ["rtc/crypto-aws-lc-rs"]
 rtc = { version = "0.21.1", path = "rtc", default-features = false }
 
 bytes = "1.12.0"
-async-trait = "0.1.89"
+async-trait = "0.1.92"
 log = "0.4.33"
 futures = "0.3.32"
 
@@ -55,7 +55,7 @@ signal = { version = "0.21.1", path = "rtc/examples/signal", package = "rtc-sign
 env_logger = "0.11.11"
 chrono = "0.4.45"
 clap = { version = "4.6.1", features = ["derive"] }
-anyhow = "1.0.103"
+anyhow = "1.0.104"
 ctrlc = "3.5.2"
 serde_json = "1.0.150"
 hyper = { version = "0.14.32", features = ["full"] }
